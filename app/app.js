@@ -1,7 +1,6 @@
-let wordCount = document.querySelector("p").innerHTML.length;
 
-function total(wordCount, avg) {
-  return wordCount / 230;
-}
+let wordCount = document.querySelector("article").innerHTML.split(" ").length;
 
-document.createElement("h3").push("#minutes-read");
+let total = wordCount / 230;
+
+document.create.element("h3").innerHTML = total;
