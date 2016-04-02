@@ -3,4 +3,8 @@ let wordCount = document.querySelector("#minutes-read").innerHTML.split(" ").len
 
 let total = wordCount / 230;
 
-document.create.element("small").innerHTML = total;
+// document.create.element("small").innerHTML = total;
+
+document.querySelector("#minutes-read").textContent = ${total} min read;
+
+Math.round(total);
