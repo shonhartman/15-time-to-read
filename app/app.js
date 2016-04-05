@@ -5,6 +5,4 @@ let total = wordCount / 230;
 
 // document.create.element("small").innerHTML = total;
 
-document.querySelector("#minutes-read").textContent = ${total} min read;
-
-Math.round(total);
+document.querySelector("#minutes-read").textContent = ${Math.round(total)} min read;
